@@ -6,7 +6,6 @@ public class GridManager : MonoBehaviour
 {
     [SerializeField] Vector2Int gridSize;
 
-    [Tooltip("World Grid Size - Should match UnityEditor snap settings.")]
     [SerializeField] int unityGridSize = 10;
     public int UnityGridSize { get { return unityGridSize; } }
 
